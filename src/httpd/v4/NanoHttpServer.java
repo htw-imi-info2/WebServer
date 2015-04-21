@@ -71,7 +71,7 @@ public class NanoHttpServer {
 				System.out.println(iox.getClass());
 				iox.printStackTrace();
 				System.out.println("caught " + iox.getMessage());
-				writer.println("HTTP/1.0 s Internal Server Error");
+				writer.println("HTTP/1.0 500 Internal Server Error");
 				writer.println("Content-Type: text/html; charset=ISO-8859-1");
 				writer.println("Server: NanoHTTPServer");
 				writer.println();
