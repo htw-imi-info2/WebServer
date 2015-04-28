@@ -28,6 +28,3 @@ local.properties
 
 # External tool builders
 .externalToolBuilders/
-
-# JDT-specific (Eclipse Java Development Tools)
-.classpath
