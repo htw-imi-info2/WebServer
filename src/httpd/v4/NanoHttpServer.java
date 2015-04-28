@@ -106,7 +106,7 @@ public class NanoHttpServer {
 				System.out.println("first line");
 				String[] tokens = line.split("\\s");
 				System.out.println("VERB: " + tokens[0]);
-				System.out.println("requesting file " + tokens[1]);
+				System.out.println("requested file " + tokens[1]);
 				requestedFile = tokens[1];
 				first_line = false;
 			}
